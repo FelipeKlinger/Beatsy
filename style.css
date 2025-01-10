@@ -41,8 +41,15 @@ text-decoration: none;
     color: #f2f2f2;
     transform: scale(1.1);
     transform-origin: center;
-
 }
+
+@media (min-width: 780px) and (max-width: 980px) {
+    .col-12.col-md-3 {
+        flex: 0 0 50%; /* Cada tarjeta ocupará el 50% del ancho */
+        max-width: 50%;
+    }
+}
+
 .navbar-nav a{
     font-family: "Kanit", sans-serif;
     font-size: 4rem;
