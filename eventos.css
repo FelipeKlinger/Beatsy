@@ -596,10 +596,14 @@ transition: transform 0.3s ease, color 0.3s ease
         }
       }
 
-     
+.mapa-eventos {
 
-  
-  
-
-
-  
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+.mapa-eventos iframe { 
+    animation: fadeIn 1s ease-in-out;
+}

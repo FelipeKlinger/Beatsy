@@ -15,6 +15,41 @@ body{
 text-decoration: none;
 }
 
+.interactive-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%; /* Ajusta según tu diseño */
+    animation: fadeIn 1s ease-in-out;
+
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+.clickable-area:hover {
+    background: rgba(0, 0, 0, 0.2); /* Efecto visual al pasar el cursor */
+
+}
+
+.clickable-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; /* Ajusta el tamaño del área clickeable */
+    height: 400px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+
 .text-brand{
     font-family: "Kanit", sans-serif;
     font-size: 4rem;
@@ -328,6 +363,18 @@ svg{
         height: 80%;
     }
 }
+
+.titulofestivals{
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 25px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #f8f9fa;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    animation: fadeIn 1s ease-in-out;
+}
+
+
     
 .titulocards{
     
@@ -1182,3 +1229,5 @@ font-family: "kanit";
         background-position: 0 0;
     }
 }
+
+
